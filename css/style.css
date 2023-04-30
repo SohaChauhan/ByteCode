@@ -1,0 +1,250 @@
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    #header {
+        font-size: 32.3px;
+        font-family: "fira code";
+        padding-bottom: 5px;
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-bottom-color: #cd8edf;
+        min-width: 1550px;
+        overflow: hidden;
+    }
+    
+    #heading {
+        left: 10px;
+        float: left;
+        padding-top: 5px;
+        padding-bottom: 1px;
+        margin-top: 3px;
+    }
+    
+    #heading1 {
+        margin-left: 10.5px;
+        /* margin-right: 20.5px; */
+        color: white;
+        /* margin-right: 0px; */
+    }
+    
+    #heading2 {
+        color: #00bf2a;
+        /* margin-right: 28.5px;
+    margin-left: 0px; */
+    }
+    
+    #signin {
+        right: 50px;
+        float: right;
+        width: 115px;
+        margin-top: 5px;
+    }
+    
+    #login {
+        right: 60px;
+        float: right;
+        width: 115x;
+        margin-top: 5px;
+    }
+    
+    #signin1 {
+        color: #ff66c4;
+        font-family: livvic;
+        font-size: 25px;
+        margin-left: 14.4px;
+        margin-right: 14.4px;
+        text-decoration: none;
+    }
+    
+    #login1 {
+        color: #38b6ff;
+        font-family: livvic;
+        font-size: 25px;
+        margin-left: 19.65px;
+        margin-right: 19.65px;
+        text-decoration: none;
+    }
+    
+    .style1 {
+        position: relative;
+        background-color: #373131;
+        border-bottom-left-radius: 36px;
+        border-top-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+        border-top-right-radius: 36px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .image {
+        padding-left: 0.5px;
+        width: 11px;
+        height: 11px;
+        cursor: pointer;
+    }
+    
+    #menubar {
+        color: #a3e0eb;
+        font-size: 20.5px;
+        font-family: 'Livvic';
+        padding-top: 3px;
+        min-width: 1550px;
+        overflow: hidden;
+    }
+    
+    #menu1 {
+        margin-left: 78.5px;
+    }
+    
+    #menu2 {
+        margin-left: 60px;
+    }
+    
+    #text {
+        min-width: 1300px;
+        overflow: hidden;
+        background-color: #504b4b;
+        margin-top: 5px;
+        padding-top: 20px;
+        right: 50px;
+    }
+    
+    .text1 {
+        white-space: pre-wrap;
+        margin-left: 78.5px;
+        margin-right: 50px;
+        font-size: 50px;
+        font-family: "livvic";
+        min-width: 1500px;
+        overflow: hidden;
+    }
+    
+    .text2 {
+        background-color: #373131;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 40px;
+        font-family: "livvic";
+        display: block;
+        overflow: hidden;
+        border-bottom-left-radius: 36px;
+        border-top-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+        border-top-right-radius: 36px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .text3 {
+        margin-left: 28.5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 50px;
+    }
+    
+    .option {
+        padding-top: 14px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        vertical-align: middle;
+        font-size: 20px;
+        background-color: #504b4b;
+        border-bottom-left-radius: 36px;
+        border-top-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+        border-top-right-radius: 36px;
+        width: 350px;
+        height: 32px;
+        display: inline-block;
+        /* margin-left: 60px; */
+        /* margin-block-end: 30px; */
+        /* position: relative; */
+    }
+    
+    .logo {
+        height: 42px;
+        width: 42px;
+        margin-left: 20px;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+    
+    .drpbtn {
+        background-color: #000000;
+        border-style: none;
+        color: #a3e0eb;
+        font-size: 20.5px;
+        font-family: 'Livvic';
+        margin: 0px;
+        cursor: pointer;
+    }
+    
+    .dropdown {
+        overflow: hidden;
+        float: none;
+        margin: 10px;
+        margin-left: 78.5px;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        min-width: 160px;
+        box-shadow: 0px 10px 10px 0px #000000;
+        z-index: 1;
+        margin-left: 78.5px;
+    }
+    
+    .dropdown-content a {
+        color: #def4f8;
+        margin-top: 5px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 9px;
+        padding-right: 9px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #373131;
+        border-bottom-style: solid;
+        border-color: #cd8edf;
+        border-width: 1px;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .option a:hover {
+        text-shadow: -5px 0px 10px black;
+    }
+    
+    .search {
+        background-color: #000000;
+        border-width: 2px;
+        border-color: #373131;
+        border-radius: 36px;
+        margin-right: 5px;
+        float: right;
+        width: 250px;
+    }
+    
+    #button {
+        float: right;
+        margin-right: 50px;
+        border: none;
+        background-color: #000000;
+        cursor: pointer;
+    }
+    
+    #button:hover {
+        box-shadow: -7px 0px 15px #373131;
+    }
